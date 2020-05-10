@@ -80,9 +80,7 @@ class MultiCompiler():
             self.text_output=scrolledtext.ScrolledText(self.compilerwindow,width=65,height=11,wrap="word",relief="groove")
             self.text_output.place(x=10,y=505)
             self.text_output["state"]="disabled"
-            #run
-            #self.save=t.Button(text="Run",height=1,width=7,command=self.runit)
-            #self.save.place(x=490,y=478)
+            self.compilerwindow.mainloop()
 
            
     def runit(self):
